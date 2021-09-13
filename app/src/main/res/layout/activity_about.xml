@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".about">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About Milk Transactions"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="#636363">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#636363"
+        android:padding="15dp"
+        android:text="Milk Transactions Application is very handy to manage record of customer. Application for those who takes milk from milk man or any shop, and they gives details of transaction to customer. So no need to keep record of milk in note book. ">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:text="You can manage :)"
+        android:textColor="#636363">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#636363"
+        android:paddingTop="5dp"
+        android:text="-Milk man details"
+        android:paddingLeft="20dp">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#636363"
+        android:text="-Share details to customer"
+        android:paddingLeft="20dp">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#636363"
+        android:text="-Can Keep record until you not delete data"
+        android:paddingLeft="20dp">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#636363"
+        android:text="-Can update details of customer by their roll no."
+        android:paddingLeft="20dp">
+    </TextView>
+    <Button
+        android:id="@+id/shareapp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Share With Friends"
+        android:padding="15dp"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="#000"
+        android:textColor="@android:color/white"
+        android:textStyle="bold">
+    </Button>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/swach_bharat"
+        android:layout_marginTop="2dp">
+    </ImageView>
+</LinearLayout>
